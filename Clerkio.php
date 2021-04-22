@@ -37,7 +37,7 @@ class clerk
 
 
     function clerk_menu() {
-        add_menu_page('Clerk << admin page', 'Clerk.io', 'manage_options', 'my-page-slug', array($this, 'clerk_admin_page'));
+        add_menu_page('Clerk << admin page', 'Clerk.io', 'manage_options', 'admin-page', array($this, 'clerk_admin_page'));
     }
 
     function clerk_admin_page() {
