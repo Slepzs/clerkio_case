@@ -1,0 +1,26 @@
+
+.clerk {
+  margin-left: -20px;
+  height: 100vh;
+  margin-top: -20px;
+  background-image: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% );
+}
+.clerk-wrapper {
+  max-width: 1024px;
+  margin: 20px auto;
+  padding: 20px;
+  .clerk-container {
+    box-shadow: 0 0 3px #e3e3e3;
+    padding: 20px;
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    .clerk_woo_info {
+      padding: 10px;
+      margin: 5px 5px;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  }
+}
